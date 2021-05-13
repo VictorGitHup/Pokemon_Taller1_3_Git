@@ -1,0 +1,88 @@
+body{
+    
+    overflow: hidden;
+    overflow: auto;
+    background: url("https://assets.pokemon.com//assets/cms2-es-es/img/misc/virtual-backgrounds/masters/forest.jpg");
+    
+      
+}
+
+.contenedor{
+    text-align: center;
+    margin: 0 auto;
+    height: 300px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.contenedorResultados{
+    background-color: rgba(189, 184, 184, 0.281);
+    text-align: center;
+    margin: 0 auto;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+}
+
+table {
+    opacity: 0.80;
+    background-color: rgba(189, 184, 184, 0.5);
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    
+  }
+  
+  td, th {
+    background-color: #dddddd;
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 1px;
+  }
+  
+  .boton {
+    background-color: #008CBA; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+  tr {
+    background-color: #dddddd;
+  }
+
+.Strong{
+    text-align: center;
+    margin: 0 auto;
+    justify-content: center;
+    align-content: center;
+}
+
+.contenedor input{
+    text-align: center;
+}
+.contenedor button{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: -30px;
+}
+.pokemon{
+    width: 150px;
+    height: 150px;
+    margin: 40px auto;
+    display: inline-block;
+    align-content: center;
+}
+p{
+    margin-top: -60px;
+}
